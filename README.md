@@ -16,7 +16,7 @@ included with the file `README.md` in its respective directory.
 - Control Panel Switch & LED Controller `status: in development`
   > The Control Panel will be to provide Ground Support
   > crew with an easy and reliable way of interfacing with the DAQ
-  > and telemetry system, ***Wanda***. This will include a series of switches,
+  > and telemetry system. This will include a series of switches,
   > buttons, and LEDs that enable both information and control to any
   > current or future ***KXR*** flight computer or motor test stand.
 - Data Acquisition & Telemetry `status: in development`
@@ -26,7 +26,7 @@ included with the file `README.md` in its respective directory.
   > implementation to both record and send live data. This will involve decoding
   > a binary stream to relevant data, sending the processed data to long-term 
   > storage, and creating or implementing an API that allows the secure transfer
-  > of data and control for ***Cosmo*** and the Front-end team's telemetry system.
+  > of data and control for and the Front-end team's telemetry system.
 ___
 ## Organization & Documentation Best Practices
 
