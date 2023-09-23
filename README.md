@@ -15,22 +15,6 @@ The following list is a description of all active and completed projects
 in this repository. Each project listed here has a more detailed description
 included with the file `README.md` in its respective directory.
 
-<<<<<<< Updated upstream
-- Control Panel Switch & LED Controller `status: in development`
-  > The Control Panel will be to provide Ground Support
-  > crew with an easy and reliable way of interfacing with the DAQ
-  > and telemetry system. This will include a series of switches,
-  > buttons, and LEDs that enable both information and control to any
-  > current or future ***KXR*** flight computer or motor test stand.
-- Data Acquisition & Telemetry `status: in development`
-  > The Data Acquisition (DAQ) and Telemetry system is vital for
-  > monitoring and controlling the state of any rockets or test stands.
-  > It must be able to recieve data from the Embedded Design team's FPGA
-  > implementation to both record and send live data. This will involve decoding
-  > a binary stream to relevant data, sending the processed data to long-term 
-  > storage, and creating or implementing an API that allows the secure transfer
-  > of data and control for and the Front-end team's telemetry system.
-=======
 - Control Panel Switch & LED Controller `status: in ideation`
   > The Control Panel will be to provide Ground Support crew with an easy and
   > reliable way of interfacing with the DAQ and telemetry system. This will
@@ -45,7 +29,6 @@ included with the file `README.md` in its respective directory.
   > creating or implementing an API that allows the secure transfer of data
   > and control for and the Front-end team's telemetry system.
 
->>>>>>> Stashed changes
 ___
 
 ## Organization & Documentation Best Practices
