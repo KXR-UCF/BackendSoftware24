@@ -6,13 +6,16 @@ This repository stores all active code used by the
 Back-end Software Development team for the 2023-2024 season.
 
 ###### README by KXR.LTI Back-end Software Development Team Lead [Will Serface](https://discord.com/users/609211773303652372).
+
 ______
+
 ## Projects
 
 The following list is a description of all active and completed projects
 in this repository. Each project listed here has a more detailed description
 included with the file `README.md` in its respective directory.
 
+<<<<<<< Updated upstream
 - Control Panel Switch & LED Controller `status: in development`
   > The Control Panel will be to provide Ground Support
   > crew with an easy and reliable way of interfacing with the DAQ
@@ -27,7 +30,24 @@ included with the file `README.md` in its respective directory.
   > a binary stream to relevant data, sending the processed data to long-term 
   > storage, and creating or implementing an API that allows the secure transfer
   > of data and control for and the Front-end team's telemetry system.
+=======
+- Control Panel Switch & LED Controller `status: in ideation`
+  > The Control Panel will be to provide Ground Support crew with an easy and
+  > reliable way of interfacing with the DAQ and telemetry system. This will
+  > include a series of switches, buttons, and LEDs that enable both information
+  > and control to any current or future KXR flight computer or motor test stand.
+- Data Acquisition & Telemetry `status: in ideation`
+  > The Data Acquisition (DAQ) and Telemetry system is vital for monitoring and
+  > controlling the state of any rockets or test stands. It must be able to
+  > recieve data from the Embedded Design team's FPGA implementation to both
+  > record and send live data. This will involve decoding a binary stream to
+  > relevant data, sending the processed data to long-term storage, and
+  > creating or implementing an API that allows the secure transfer of data
+  > and control for and the Front-end team's telemetry system.
+
+>>>>>>> Stashed changes
 ___
+
 ## Organization & Documentation Best Practices
 
 ### GitHub & Branches
@@ -47,9 +67,9 @@ when adding a commit to the repository.
 For the sake of readability for both current and future members of ***KXR.LTI***,
 any code added by the team to any project in this repository is expected be
 well-written. This includes easily read formatting, good organization,
-and frequent comments describing the purpose of each series of  statements.
+and frequent comments describing the purpose of each series of statements.
 
-For example, below is my ideal way of writing comments in *C*. 
+For example, below is my ideal way of writing comments in *C*.
 While there is no specified format of comments, please be generous with the
 amount of quality documentation we have for ourselves and our future team members.
 
