@@ -35,15 +35,19 @@ ___
 
 ### GitHub & Branches
 
-The most recent *stable* version of code, specifically for launches and
+The completed "Production" version of code, specifically for launches and
 static fire tests, will be stored in the
 [`main`](https://github.com/KXR-UCF/BackendSoftware24/tree/main) branch,
-while all code in active development will be kept in the
-[`dev`](https://github.com/KXR-UCF/BackendSoftware24/tree/dev) branch
-to ensure the stability and reliability of our projects.
+while each task or feature in active development will be kept in its own
+individually named branch, and after review, shall be merged back into
+[`main`](https://github.com/KXR-UCF/BackendSoftware24/tree/main)
+and archived. This will allow the Production code to only have a single
+feature change made at a time, which will allow the team to easily identify 
+the source of any unforseen incompatibilities between versions.
 
 Please include a concise summary and add more detail in the description
-when adding a commit to the repository.
+when adding a commit to the repository. If working on multiple tasks simultaneously,
+please be mindful of which branch you target when committing changes.
 
 ### Code
 
